@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/button_download_any"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="https://www.rbc.ru" />
+
+    <EditText
+        android:id="@+id/txt_Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Login"/>
+
+    <EditText
+        android:id="@+id/txt_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"/>
+
+    <EditText
+        android:id="@+id/txt_Domain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Domain"
+        android:text="users"/>
+    <Button
+        android:id="@+id/button_download_ias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="https://ias.vgtrk.com/webworkflow/api/rtr/Person/CheckIAmUser" />
+
+    <Button
+        android:id="@+id/button_download_ias_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="http://ias.vgtrk.com/webworkflow/api/rtr/Person/CheckIAmUser" />
+
+    <Button
+        android:id="@+id/button_download_ias_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Без проверки сертификата https://ias.vgtrk.com/webworkflow/api/rtr/Person/CheckIAmUser" />
+
+
+
+    <TextView
+        android:id="@+id/text_result_download"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
